@@ -1,4 +1,3 @@
-// Імпорти не потрібні, оскільки використовується тільки типовий TypeScript код
 type User = {
     name: string;
     surname: string;
@@ -7,7 +6,6 @@ type User = {
 };
 
 function createOrUpdateUser(initialValues: Partial<User>) {
-    // Оновлення користувача
 }
 
 createOrUpdateUser({
